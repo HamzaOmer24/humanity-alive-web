@@ -31,7 +31,7 @@ serve(async (req) => {
 
     // Update donation status based on EasyPaisa response
     const paymentStatus = status === 'success' ? 'completed' : 'failed'
-    
+
     const { data: donation, error: updateError } = await supabase
       .from('donations')
       .update({
@@ -51,9 +51,9 @@ serve(async (req) => {
     console.log('Payment verification completed:', donation)
 
     // Redirect based on payment status
-    const redirectUrl = paymentStatus === 'completed' 
-      ? `${Deno.env.get('SITE_URL') || 'https://tswopzusnqbyakkjkefv.lovableproject.com'}/thank-you`
-      : `${Deno.env.get('SITE_URL') || 'https://tswopzusnqbyakkjkefv.lovableproject.com'}/donation-cancelled`
+    const redirectUrl = paymentStatus === 'completed'
+      ? `${Deno.env.get('SITE_URL') || 'https://humanity-alive-web.vercel.app'}/thank-you`
+      : `${Deno.env.get('SITE_URL') || 'https://humanity-alive-web.vercel.app'}/donation-cancelled`
 
     return new Response(null, {
       status: 302,
@@ -69,7 +69,7 @@ serve(async (req) => {
       status: 302,
       headers: {
         ...corsHeaders,
-        'Location': `${Deno.env.get('SITE_URL') || 'https://tswopzusnqbyakkjkefv.lovableproject.com'}/donation-cancelled`
+        'Location': `${Deno.env.get('SITE_URL') || 'https://humanity-alive-web.vercel.app'}/donation-cancelled`
       }
     })
   }
