@@ -15,9 +15,9 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo */}
           <div className="mb-8 flex justify-center">
-            <img 
-              src="/lovable-uploads/79864f53-971d-4217-af73-c45b7e056963.png" 
-              alt="Humanity Alive Foundation Logo" 
+            <img
+              src="/uploads/79864f53-971d-4217-af73-c45b7e056963.png"
+              alt="Humanity Alive Foundation Logo"
               className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-contain"
             />
           </div>
@@ -39,15 +39,15 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl lg:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Spreading kindness, compassion, and hope throughout our community. 
+            Spreading kindness, compassion, and hope throughout our community.
             Join us in making a meaningful impact on the lives of those who need it most.
           </p>
 
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              asChild 
-              size="lg" 
+            <Button
+              asChild
+              size="lg"
               className="h-14 px-8 text-lg font-semibold bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <Link to="/donate">
@@ -56,11 +56,11 @@ const Hero = () => {
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
-            
-            <Button 
-              asChild 
-              variant="outline" 
-              size="lg" 
+
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
               className="h-14 px-8 text-lg font-semibold hover:bg-primary/10 border-2 transition-all duration-300 hover:scale-105"
             >
               <Link to="/programs">

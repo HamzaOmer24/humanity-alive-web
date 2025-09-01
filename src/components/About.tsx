@@ -30,13 +30,13 @@ const About = () => {
             Our Mission
           </h2>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            The Humanity Alive Foundation (H.A.F) is dedicated to enhancing the lives of 
-            individuals and families in need by providing critical support in the areas 
+            The Humanity Alive Foundation (H.A.F) is dedicated to enhancing the lives of
+            individuals and families in need by providing critical support in the areas
             of health, education, and family upliftment.
           </p>
           <div className="mt-8 p-6 bg-foundation-light rounded-lg max-w-4xl mx-auto">
             <p className="text-lg text-foundation-green font-medium">
-              Our mission is to create a ripple effect of kindness and compassion, 
+              Our mission is to create a ripple effect of kindness and compassion,
               empowering those we serve to thrive and reach their full potential.
             </p>
           </div>
@@ -51,16 +51,16 @@ const About = () => {
               </h3>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  This idea was instilled in our founder, <strong>Mrs. Alina Aziz</strong>, 
+                  This idea was instilled in our founder, <strong>Mrs. Alina Aziz</strong>,
                   by her mother, who taught her that the act of giving always brings inner peace.
                 </p>
                 <p>
-                  Inspired by her mother's wisdom, Mrs. Aziz set out to create an organization 
-                  that would embody this principle and make a meaningful difference in the 
+                  Inspired by her mother's wisdom, Mrs. Aziz set out to create an organization
+                  that would embody this principle and make a meaningful difference in the
                   lives of those in need.
                 </p>
                 <p className="text-foundation-green font-medium">
-                  Since our birth in January 2025, we have been proud to make a significant 
+                  Since our birth in January 2025, we have been proud to make a significant
                   impact through our dedicated initiatives.
                 </p>
               </div>
@@ -83,72 +83,72 @@ const About = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/1849f836-8a53-44e2-99cb-fca568672009.png" 
+              <img
+                src="/uploads/1849f836-8a53-44e2-99cb-fca568672009.png"
                 alt="Healthcare outreach program"
                 className="w-full h-64 object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/8fdb18e6-fd70-4da5-bb54-c1e7450e14c9.png" 
+              <img
+                src="/uploads/8fdb18e6-fd70-4da5-bb54-c1e7450e14c9.png"
                 alt="Volunteer program and credentials"
                 className="w-full h-64 object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/9f81a3fe-4c2a-4af9-83c2-c2f66b21cce0.png" 
+              <img
+                src="/uploads/9f81a3fe-4c2a-4af9-83c2-c2f66b21cce0.png"
                 alt="Essential supplies distribution"
                 className="w-full h-64 object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/6c0f71ac-aabe-4e64-b1c0-c81ea8a6ef76.png" 
+              <img
+                src="/uploads/6c0f71ac-aabe-4e64-b1c0-c81ea8a6ef76.png"
                 alt="Community aid packages"
                 className="w-full h-64 object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/f057ce05-c036-4ef5-8722-899bfd123789.png" 
+              <img
+                src="/uploads/f057ce05-c036-4ef5-8722-899bfd123789.png"
                 alt="Food and basic necessities distribution"
                 className="w-full h-64 object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/0b48c3a8-7a83-46f2-99f0-772f945b53f3.png" 
+              <img
+                src="/uploads/0b48c3a8-7a83-46f2-99f0-772f945b53f3.png"
                 alt="Medical care and treatment"
                 className="w-full h-64 object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/37bcf103-5a3c-489a-96aa-409379cf0596.png" 
+              <img
+                src="/uploads/37bcf103-5a3c-489a-96aa-409379cf0596.png"
                 alt="Pediatric healthcare services"
                 className="w-full h-64 object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/8c331349-b45e-4e6f-809a-0aae08b84ac8.png" 
+              <img
+                src="/uploads/8c331349-b45e-4e6f-809a-0aae08b84ac8.png"
                 alt="Community education and awareness"
                 className="w-full h-64 object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg bg-gray-50">
-              <img 
-                src="/lovable-uploads/6e98e2f5-6efb-4654-b0d6-b6b967fd9c92.png" 
+              <img
+                src="/uploads/6e98e2f5-6efb-4654-b0d6-b6b967fd9c92.png"
                 alt="Professional medical training"
                 className="w-full h-64 object-contain"
               />
             </div>
           </div>
           <p className="text-center text-gray-600 max-w-3xl mx-auto">
-            Through our dedicated programs in healthcare, education, and community support, 
-            we're making a tangible difference in the lives of those who need it most. 
+            Through our dedicated programs in healthcare, education, and community support,
+            we're making a tangible difference in the lives of those who need it most.
             Our volunteers and partners work tirelessly to deliver essential services and hope to communities.
           </p>
         </div>
